@@ -1,0 +1,7 @@
+name: levy4
+benchmark: levy4
+num_iters: 200
+num_init: 10
+parameters: null
+bounds: [[-10, 5], [-10, 10], [-5, 10], [-1, 10]]
+noise_std: 0.01

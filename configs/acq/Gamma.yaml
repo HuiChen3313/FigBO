@@ -1,0 +1,5 @@
+name: Gamma
+acq_func: Gamma
+init_type: sobol
+# acq_kwargs:                #EI need best_f (prune_baseline)
+#   prune_baseline: True   
