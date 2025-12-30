@@ -62,7 +62,7 @@ ACQUISITION_FUNCTIONS = {
     'EI': ExpectedImprovement,
     'PI': ProbabilityOfImprovement,
      'UCB': UpperConfidenceBound,
-    'Gamma': GammaExpectedImprovement,
+    'FigBO': GammaExpectedImprovement,
 
  }
 
