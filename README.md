@@ -42,7 +42,7 @@ The main dependencies are listed in requirements.txt, including:
 - Hydra
 
 
-# FigBO (Proposed)
+# FigBO
 
 Key: FigBO
 
@@ -51,3 +51,21 @@ Implementation: GammaExpectedImprovement
 FigBO is the proposed acquisition function described in the paper. In the codebase, it is implemented using GammaExpectedImprovement, which realizes the gamma-based design introduced in the method. All experimental results reported as FigBO in the paper are generated using this implementation.
 
 Note: The name GammaExpectedImprovement reflects an internal implementation detail related to the gamma-based formulation and does not indicate a separate baseline or variant.
+
+FigBO is the proposed acquisition function described in the paper. In the codebase, it is implemented using GammaExpectedImprovement, which realizes the gamma-based design introduced in the method. All experimental results reported as FigBO in the paper are generated using this implementation.
+
+
+# Usage
+# Running FigBO
+
+To run the proposed FigBO method:
+```bash
+python main.py acq=FigBO
+```
+
+# Running Baselines
+
+To run a baseline acquisition function (e.g., Expected Improvement):
+```bash
+python main.py acq=EI
+```
