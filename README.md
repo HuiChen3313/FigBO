@@ -25,21 +25,21 @@ The code is implemented in Python and relies on PyTorch and BoTorch for Bayesian
 
 The main dependencies are listed in requirements.txt, including:
 
--PyTorch
+- PyTorch
 
--BoTorch
+- BoTorch
 
--GPyTorch
+- GPyTorch
 
--Ax-platform
+- Ax-platform
 
--NumPy
+- NumPy
 
--SciPy
+- SciPy
 
--Matplotlib
+- Matplotlib
 
--Hydra
+- Hydra
 
 
 # FigBO (Proposed)
