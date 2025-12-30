@@ -1,0 +1,8 @@
+torch
+botorch
+gpytorch
+ax-platform
+numpy
+scipy
+matplotlib
+hydra-core
