@@ -54,7 +54,7 @@ The name `GammaExpectedImprovement` reflects an internal implementation detail r
 
 
 # Usage
-# Running FigBO
+## Running FigBO
 
 To run the proposed FigBO method:
 ```bash
