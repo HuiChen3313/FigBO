@@ -17,5 +17,5 @@ cd FigBO
 Install the required dependencies:
 ```bash
 pip install -r requirements.txt
-
+```
 The code is implemented in Python and relies on PyTorch and BoTorch for Bayesian optimization.
