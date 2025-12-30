@@ -61,9 +61,15 @@ To run the proposed FigBO method:
 python main.py acq=FigBO
 ```
 
-# Running Baselines
+## Running Baselines
 
 To run a baseline acquisition function (e.g., Expected Improvement):
 ```bash
 python main.py acq=EI
 ```
+
+# Result
+All figures and tables in the paper are generated from the CSV and JSON files produced by running `main.py` with the corresponding configuration files.
+
+
+
