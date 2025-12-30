@@ -69,7 +69,7 @@ python main.py acq=EI
 ```
 
 ## Result
-All figures and tables in the paper are generated from the CSV and JSON files produced by running `main.py` with the corresponding configuration files.
+All figures and tables in the paper are generated from the CSV and JSON files produced by running `main.py` with the corresponding configuration files and random seeds.
 
 
 
