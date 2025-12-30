@@ -8,10 +8,10 @@ FigBO is a Bayesian optimization method based on a gamma-designed acquisition st
 # Installation
 
 Clone the repository:
-
+'''bash
 git clone https://github.com/HuiChen3313/FigBO.git
 cd FigBO
-
+'''
 Install the required dependencies:
 pip install -r requirements.txt
 
