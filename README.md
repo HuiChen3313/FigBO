@@ -5,7 +5,7 @@ This repository is the official implementation of FigBO: A Generalized Acquisiti
 FigBO is a Bayesian optimization method based on a gamma-designed acquisition strategy, enabling a flexible and principled trade-off between exploration and exploitation.
 
 
-# Installation
+## Installation
 
 Clone the repository:
 
@@ -21,7 +21,7 @@ pip install -r requirements.txt
 The code is implemented in Python and relies on PyTorch and BoTorch for Bayesian optimization.
 
 
-# Requirements
+## Requirements
 
 The main dependencies are listed in requirements.txt, including:
 
@@ -42,7 +42,7 @@ The main dependencies are listed in requirements.txt, including:
 - Hydra
 
 
-# FigBO
+## FigBO Algorithm
 
 Key: FigBO
 
@@ -53,22 +53,22 @@ FigBO is the proposed acquisition function described in the paper. In the codeba
 The name `GammaExpectedImprovement` reflects an internal implementation detail related to the gamma-based formulation.
 
 
-# Usage
-## Running FigBO
+## Usage
+### Running FigBO
 
 To run the proposed FigBO method:
 ```bash
 python main.py acq=FigBO
 ```
 
-## Running Baselines
+### Running Baselines
 
 To run a baseline acquisition function (e.g., Expected Improvement):
 ```bash
 python main.py acq=EI
 ```
 
-# Result
+## Result
 All figures and tables in the paper are generated from the CSV and JSON files produced by running `main.py` with the corresponding configuration files.
 
 
