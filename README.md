@@ -69,7 +69,13 @@ python main.py acq=EI
 ```
 
 ## Result
-All figures and tables in the paper are generated from the CSV and JSON files produced by running `main.py` with the corresponding configuration files and random seeds.
+All figures and tables in the paper are generated from the CSV and JSON files produced by running `main.py` with the corresponding configuration files and random seeds. These files record the optimization trajectories, evaluations, and model hyperparameters used for analysis
+
+## Folder Structure
+- `main.py`: Main entry point for running Bayesian optimization experiments.
+- `configs/`: Hydra configuration files specifying benchmarks, acquisition functions, models, and random seeds.
+- `benchmarking/`: Benchmark functions, acquisition implementations, and evaluation utilities.
+- `results/`: Directory where CSV and JSON result files are saved after running experiments.
 
 
 
