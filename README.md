@@ -52,8 +52,6 @@ FigBO is the proposed acquisition function described in the paper. In the codeba
 
 Note: The name GammaExpectedImprovement reflects an internal implementation detail related to the gamma-based formulation and does not indicate a separate baseline or variant.
 
-FigBO is the proposed acquisition function described in the paper. In the codebase, it is implemented using GammaExpectedImprovement, which realizes the gamma-based design introduced in the method. All experimental results reported as FigBO in the paper are generated using this implementation.
-
 
 # Usage
 # Running FigBO
