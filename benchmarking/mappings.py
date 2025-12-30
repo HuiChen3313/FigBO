@@ -62,7 +62,7 @@ ACQUISITION_FUNCTIONS = {
     'EI': ExpectedImprovement,
     'PI': ProbabilityOfImprovement,
      'UCB': UpperConfidenceBound,
-    'FigBO': GammaExpectedImprovement,
+    'FigBO': GammaExpectedImprovement, # FigBO implementation (Γ(x)-based acquisition described in the paper)
 
  }
 
