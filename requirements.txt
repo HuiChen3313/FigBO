@@ -1,8 +1,8 @@
-torch
-botorch
-gpytorch
-ax-platform
-numpy
-scipy
-matplotlib
-hydra-core
+- torch==2.2.0
+- botorch==0.12.0
+- gpytorch==1.13
+- ax-platform==0.4.3
+- numpy==1.26.4
+- scipy==1.13.1
+- matplotlib==3.7.2
+- hydra-core==1.3.2
