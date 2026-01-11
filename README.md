@@ -41,7 +41,7 @@ Key: FigBO
 
 Implementation: GammaExpectedImprovement (internal)
 
-FigBO is the proposed acquisition framework described in the paper. In the codebase, it is implemented using an internal module referred to as GammaExpectedImprovement, which realizes the Γ(x)-based look-ahead design introduced in the method. All experimental results reported as FigBO in the paper are generated using this implementation.
+FigBO is the proposed acquisition framework described in the paper. In the codebase, it is implemented via a project-internal module referred to as GammaExpectedImprovement, which realizes the Γ(x)-based look-ahead design introduced in the method. All experimental results reported as FigBO in the paper are generated using this implementation.
 
 Note that GammaExpectedImprovement is an internal implementation detail of the FigBO framework, rather than an official acquisition function provided by BoTorch. The implementation is built on top of BoTorch’s GP posterior interfaces without modifying the BoTorch source code.
 
