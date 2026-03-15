@@ -12,7 +12,7 @@ from botorch.acquisition import (
     qNoisyExpectedImprovement,
 )
 from botorch.acquisition.logei import qLogNoisyExpectedImprovement
-# from botorch.acquisition.analytic import ExpectedImprovement, ProbabilityOfImprovement, GammaExpectedImprovement, UpperConfidenceBound
+
 from botorch.acquisition.analytic import (
     ExpectedImprovement,
     ProbabilityOfImprovement,
