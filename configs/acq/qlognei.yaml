@@ -1,5 +1,0 @@
-name: qLogNEI
-acq_func: qLogNEI
-init_type: sobol
-acq_kwargs:
-  prune_baseline: True

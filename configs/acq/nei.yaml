@@ -1,5 +1,0 @@
-name: NEI
-acq_func: NEI
-init_type: sobol
-acq_kwargs:
-  prune_baseline: True

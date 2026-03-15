@@ -1,5 +1,0 @@
-name: EI
-acq_func: EI
-init_type: sobol
-# acq_kwargs:                #EI need best_f (prune_baseline)
-#   prune_baseline: True   
