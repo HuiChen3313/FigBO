@@ -42,8 +42,13 @@ Key: FigBO
 Implementation: FigBO (custom extension)
 
 FigBO is the proposed acquisition framework described in the paper.
-The method is implemented as a custom extension built on top of BoTorch’s
-existing acquisition-function interfaces.
+The method is implemented as a custom acquisition function built on top of
+BoTorch’s existing acquisition-function interfaces.
+
+The core implementation of FigBO is provided in
+`benchmarking/gamma_expected_improvement.py`,
+where the acquisition class `GammaExpectedImprovement`
+implements the FigBO acquisition function used in the experiments.
 
 For experimental evaluation, FigBO is realized by augmenting standard
 Expected Improvement with an additional Γ(x)-based look-ahead term,
