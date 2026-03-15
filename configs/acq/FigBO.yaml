@@ -1,0 +1,7 @@
+name: FigBO
+acq_func: FigBO
+init_type: sobol
+
+acq_kwargs:
+  eta: 20
+  num_mc_samples: 100
